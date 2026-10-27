@@ -1,0 +1,43 @@
+{
+  "model_family": "Qwen/Qwen3-8B",
+  "model_weights_sha256": {
+    "model-00001-of-00005.safetensors": "31d6a825ae35f11fb85b195b4c42c146c051e446433125a215336abdf95cbf5f",
+    "model-00002-of-00005.safetensors": "5991236cea6fe21f3d43cab0f0e84448734fbbe0789816202989f2ddc9d18282",
+    "model-00003-of-00005.safetensors": "c5185c4794be2d8a9784d5753c9922db38df478ce11f9ed0b415b7304d896836",
+    "model-00004-of-00005.safetensors": "b5ee7de71fbf17db3d5704e0c8f2bc7d005ca9e1d7ca2aeb19827b0cfcaa917a",
+    "model-00005-of-00005.safetensors": "20c2d6366ab85c90786ccdd829cd2b9e7d30ef3b2ebbb998280e7e4014b542ff"
+  },
+  "group_prompt": "prompts/group_estimation_template.txt",
+  "post_characters": 100,
+  "groups": 10,
+  "posts_per_group": 8,
+  "do_sample": false,
+  "enable_thinking": false,
+  "max_new_tokens": 160,
+  "dtype": "bfloat16",
+  "attention": "sdpa",
+  "batch_size": 4,
+  "aggregation": "Arithmetic mean of ten valid group predictions; any invalid group invalidates the question-arm.",
+  "normalization": "Finite nonnegative option vectors with positive total are normalized; zero vectors are invalid.",
+  "jobs": 260,
+  "invalid_jobs": 0,
+  "encoder": "BAAI/bge-base-zh-v1.5",
+  "features": "Cached full-post, default model truncation, L2-normalized 768-dimensional embeddings; no UMAP.",
+  "grouping_algorithm": "capacity-constrained Lloyd iterations with optimal slot assignment; Euclidean SSE",
+  "grouping_settings": {
+    "k": 10,
+    "capacity": 8,
+    "seed": 42,
+    "restarts": 10,
+    "max_iter": 100
+  },
+  "runtime": {
+    "python": "3.10.16",
+    "numpy": "2.2.6",
+    "torch": "2.5.1",
+    "transformers": "4.51.3",
+    "cuda": "12.1",
+    "gpu": "NVIDIA A100-SXM4-80GB"
+  },
+  "original_real_arm_responses_identical_to_previous_run": 130
+}

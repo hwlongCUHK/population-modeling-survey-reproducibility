@@ -1,0 +1,121 @@
+{
+  "partitions_identical": false,
+  "adjusted_rand_index": 0.392609126984127,
+  "coherence_full_post_embeddings": {
+    "real": {
+      "sse": 24.171389170516065,
+      "mean_pairwise_cosine": 0.6546944895542565
+    },
+    "kmeans_balanced": {
+      "sse": 25.04928318297986,
+      "mean_pairwise_cosine": 0.6421531465190594
+    }
+  },
+  "restarts": [
+    {
+      "restart": 0,
+      "sse": 27.142403321109906,
+      "iterations": 3,
+      "converged": true,
+      "trace": [
+        27.33331650242806,
+        27.142403321109906,
+        27.142403321109906
+      ]
+    },
+    {
+      "restart": 1,
+      "sse": 25.04928318297986,
+      "iterations": 2,
+      "converged": true,
+      "trace": [
+        25.04928318297986,
+        25.04928318297986
+      ]
+    },
+    {
+      "restart": 2,
+      "sse": 25.64150235639609,
+      "iterations": 3,
+      "converged": true,
+      "trace": [
+        25.96678668588995,
+        25.64150235639609,
+        25.64150235639609
+      ]
+    },
+    {
+      "restart": 3,
+      "sse": 25.21821191964248,
+      "iterations": 2,
+      "converged": true,
+      "trace": [
+        25.21821191964248,
+        25.21821191964248
+      ]
+    },
+    {
+      "restart": 4,
+      "sse": 26.468836180775845,
+      "iterations": 2,
+      "converged": true,
+      "trace": [
+        26.468836180775845,
+        26.468836180775845
+      ]
+    },
+    {
+      "restart": 5,
+      "sse": 26.316825073870614,
+      "iterations": 2,
+      "converged": true,
+      "trace": [
+        26.316825073870614,
+        26.316825073870614
+      ]
+    },
+    {
+      "restart": 6,
+      "sse": 25.059189446783652,
+      "iterations": 3,
+      "converged": true,
+      "trace": [
+        25.335121451516027,
+        25.059189446783652,
+        25.059189446783652
+      ]
+    },
+    {
+      "restart": 7,
+      "sse": 26.30452735774834,
+      "iterations": 3,
+      "converged": true,
+      "trace": [
+        26.44719704517742,
+        26.30452735774834,
+        26.30452735774834
+      ]
+    },
+    {
+      "restart": 8,
+      "sse": 25.44504022129455,
+      "iterations": 3,
+      "converged": true,
+      "trace": [
+        25.906635163262344,
+        25.44504022129455,
+        25.44504022129455
+      ]
+    },
+    {
+      "restart": 9,
+      "sse": 26.20675452095541,
+      "iterations": 2,
+      "converged": true,
+      "trace": [
+        26.20675452095541,
+        26.20675452095541
+      ]
+    }
+  ]
+}

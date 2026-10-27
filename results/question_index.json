@@ -1,0 +1,80 @@
+[
+  {
+    "id": "q01",
+    "n_options": 5,
+    "original_six": true,
+    "original_six_rank": 3
+  },
+  {
+    "id": "q02",
+    "n_options": 5,
+    "original_six": true,
+    "original_six_rank": 4
+  },
+  {
+    "id": "q03",
+    "n_options": 4,
+    "original_six": true,
+    "original_six_rank": 5
+  },
+  {
+    "id": "q04",
+    "n_options": 5,
+    "original_six": true,
+    "original_six_rank": 1
+  },
+  {
+    "id": "q05",
+    "n_options": 5,
+    "original_six": true,
+    "original_six_rank": 2
+  },
+  {
+    "id": "q06",
+    "n_options": 5,
+    "original_six": false,
+    "original_six_rank": null
+  },
+  {
+    "id": "q07",
+    "n_options": 5,
+    "original_six": true,
+    "original_six_rank": 6
+  },
+  {
+    "id": "q08",
+    "n_options": 4,
+    "original_six": false,
+    "original_six_rank": null
+  },
+  {
+    "id": "q09",
+    "n_options": 5,
+    "original_six": false,
+    "original_six_rank": null
+  },
+  {
+    "id": "q10",
+    "n_options": 4,
+    "original_six": false,
+    "original_six_rank": null
+  },
+  {
+    "id": "q11",
+    "n_options": 5,
+    "original_six": false,
+    "original_six_rank": null
+  },
+  {
+    "id": "q12",
+    "n_options": 6,
+    "original_six": false,
+    "original_six_rank": null
+  },
+  {
+    "id": "q13",
+    "n_options": 6,
+    "original_six": false,
+    "original_six_rank": null
+  }
+]
